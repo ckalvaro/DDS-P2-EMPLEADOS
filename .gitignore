@@ -1,0 +1,29 @@
+# === IGNORA DEPENDENCIAS DE BACK Y FRONT ===
+EjercitacionBackEnd2024/node_modules/
+EjercitacionFrontEnd2024/node_modules/
+
+# === ARCHIVOS .env (si los usás) ===
+EjercitacionBackEnd2024/.env
+EjercitacionFrontEnd2024/.env
+
+# === LOGS Y ARCHIVOS TEMPORALES ===
+*.log
+*.pid
+*.out
+logs/
+npm-debug.log*
+
+# === VSCODE ===
+.vscode/
+
+# === ARCHIVOS DE SISTEMA ===
+.DS_Store
+Thumbs.db
+
+# === SALIDAS DE BUILD FRONTEND ===
+EjercitacionFrontEnd2024/build/
+EjercitacionFrontEnd2024/dist/
+
+# === CACHE O TEST COVERAGE ===
+coverage/
+.cache/
